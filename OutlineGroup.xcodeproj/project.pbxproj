@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDA94A224ACB3000010EDE6 /* OutlineGroupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA94A124ACB3000010EDE6 /* OutlineGroupApp.swift */; };
+		AFDA94A424ACB3000010EDE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA94A324ACB3000010EDE6 /* ContentView.swift */; };
+		AFDA94A624ACB3020010EDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA94A524ACB3020010EDE6 /* Assets.xcassets */; };
+		AFDA94A924ACB3020010EDE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA94A824ACB3020010EDE6 /* Preview Assets.xcassets */; };
+		AFDA94B424ACB3030010EDE6 /* OutlineGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA94B324ACB3030010EDE6 /* OutlineGroupTests.swift */; };
+		AFDA94BF24ACB3030010EDE6 /* OutlineGroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA94BE24ACB3030010EDE6 /* OutlineGroupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFDA94B024ACB3030010EDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDA949624ACB3000010EDE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDA949D24ACB3000010EDE6;
+			remoteInfo = OutlineGroup;
+		};
+		AFDA94BB24ACB3030010EDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDA949624ACB3000010EDE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDA949D24ACB3000010EDE6;
+			remoteInfo = OutlineGroup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFDA949E24ACB3000010EDE6 /* OutlineGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutlineGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA94A124ACB3000010EDE6 /* OutlineGroupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupApp.swift; sourceTree = "<group>"; };
+		AFDA94A324ACB3000010EDE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFDA94A524ACB3020010EDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFDA94A824ACB3020010EDE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFDA94AA24ACB3020010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA94AF24ACB3030010EDE6 /* OutlineGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutlineGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA94B324ACB3030010EDE6 /* OutlineGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupTests.swift; sourceTree = "<group>"; };
+		AFDA94B524ACB3030010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA94BA24ACB3030010EDE6 /* OutlineGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutlineGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA94BE24ACB3030010EDE6 /* OutlineGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupUITests.swift; sourceTree = "<group>"; };
+		AFDA94C024ACB3030010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDA949B24ACB3000010EDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA94AC24ACB3030010EDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA94B724ACB3030010EDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDA949524ACB3000010EDE6 = {
+			isa = PBXGroup;
+			children = (
+				AFDA94A024ACB3000010EDE6 /* OutlineGroup */,
+				AFDA94B224ACB3030010EDE6 /* OutlineGroupTests */,
+				AFDA94BD24ACB3030010EDE6 /* OutlineGroupUITests */,
+				AFDA949F24ACB3000010EDE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDA949F24ACB3000010EDE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA949E24ACB3000010EDE6 /* OutlineGroup.app */,
+				AFDA94AF24ACB3030010EDE6 /* OutlineGroupTests.xctest */,
+				AFDA94BA24ACB3030010EDE6 /* OutlineGroupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDA94A024ACB3000010EDE6 /* OutlineGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA94A124ACB3000010EDE6 /* OutlineGroupApp.swift */,
+				AFDA94A324ACB3000010EDE6 /* ContentView.swift */,
+				AFDA94A524ACB3020010EDE6 /* Assets.xcassets */,
+				AFDA94AA24ACB3020010EDE6 /* Info.plist */,
+				AFDA94A724ACB3020010EDE6 /* Preview Content */,
+			);
+			path = OutlineGroup;
+			sourceTree = "<group>";
+		};
+		AFDA94A724ACB3020010EDE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA94A824ACB3020010EDE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFDA94B224ACB3030010EDE6 /* OutlineGroupTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA94B324ACB3030010EDE6 /* OutlineGroupTests.swift */,
+				AFDA94B524ACB3030010EDE6 /* Info.plist */,
+			);
+			path = OutlineGroupTests;
+			sourceTree = "<group>";
+		};
+		AFDA94BD24ACB3030010EDE6 /* OutlineGroupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA94BE24ACB3030010EDE6 /* OutlineGroupUITests.swift */,
+				AFDA94C024ACB3030010EDE6 /* Info.plist */,
+			);
+			path = OutlineGroupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDA949D24ACB3000010EDE6 /* OutlineGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA94C324ACB3030010EDE6 /* Build configuration list for PBXNativeTarget "OutlineGroup" */;
+			buildPhases = (
+				AFDA949A24ACB3000010EDE6 /* Sources */,
+				AFDA949B24ACB3000010EDE6 /* Frameworks */,
+				AFDA949C24ACB3000010EDE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutlineGroup;
+			productName = OutlineGroup;
+			productReference = AFDA949E24ACB3000010EDE6 /* OutlineGroup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFDA94AE24ACB3030010EDE6 /* OutlineGroupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA94C624ACB3030010EDE6 /* Build configuration list for PBXNativeTarget "OutlineGroupTests" */;
+			buildPhases = (
+				AFDA94AB24ACB3030010EDE6 /* Sources */,
+				AFDA94AC24ACB3030010EDE6 /* Frameworks */,
+				AFDA94AD24ACB3030010EDE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDA94B124ACB3030010EDE6 /* PBXTargetDependency */,
+			);
+			name = OutlineGroupTests;
+			productName = OutlineGroupTests;
+			productReference = AFDA94AF24ACB3030010EDE6 /* OutlineGroupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFDA94B924ACB3030010EDE6 /* OutlineGroupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA94C924ACB3030010EDE6 /* Build configuration list for PBXNativeTarget "OutlineGroupUITests" */;
+			buildPhases = (
+				AFDA94B624ACB3030010EDE6 /* Sources */,
+				AFDA94B724ACB3030010EDE6 /* Frameworks */,
+				AFDA94B824ACB3030010EDE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDA94BC24ACB3030010EDE6 /* PBXTargetDependency */,
+			);
+			name = OutlineGroupUITests;
+			productName = OutlineGroupUITests;
+			productReference = AFDA94BA24ACB3030010EDE6 /* OutlineGroupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDA949624ACB3000010EDE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AFDA949D24ACB3000010EDE6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AFDA94AE24ACB3030010EDE6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AFDA949D24ACB3000010EDE6;
+					};
+					AFDA94B924ACB3030010EDE6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AFDA949D24ACB3000010EDE6;
+					};
+				};
+			};
+			buildConfigurationList = AFDA949924ACB3000010EDE6 /* Build configuration list for PBXProject "OutlineGroup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFDA949524ACB3000010EDE6;
+			productRefGroup = AFDA949F24ACB3000010EDE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDA949D24ACB3000010EDE6 /* OutlineGroup */,
+				AFDA94AE24ACB3030010EDE6 /* OutlineGroupTests */,
+				AFDA94B924ACB3030010EDE6 /* OutlineGroupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDA949C24ACB3000010EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA94A924ACB3020010EDE6 /* Preview Assets.xcassets in Resources */,
+				AFDA94A624ACB3020010EDE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA94AD24ACB3030010EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA94B824ACB3030010EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDA949A24ACB3000010EDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA94A424ACB3000010EDE6 /* ContentView.swift in Sources */,
+				AFDA94A224ACB3000010EDE6 /* OutlineGroupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA94AB24ACB3030010EDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA94B424ACB3030010EDE6 /* OutlineGroupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA94B624ACB3030010EDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA94BF24ACB3030010EDE6 /* OutlineGroupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFDA94B124ACB3030010EDE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDA949D24ACB3000010EDE6 /* OutlineGroup */;
+			targetProxy = AFDA94B024ACB3030010EDE6 /* PBXContainerItemProxy */;
+		};
+		AFDA94BC24ACB3030010EDE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDA949D24ACB3000010EDE6 /* OutlineGroup */;
+			targetProxy = AFDA94BB24ACB3030010EDE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFDA94C124ACB3030010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFDA94C224ACB3030010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDA94C424ACB3030010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OutlineGroup/Preview Content\"";
+				DEVELOPMENT_TEAM = KM569NM77P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OutlineGroup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.OutlineGroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDA94C524ACB3030010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OutlineGroup/Preview Content\"";
+				DEVELOPMENT_TEAM = KM569NM77P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OutlineGroup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.OutlineGroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFDA94C724ACB3030010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = OutlineGroupTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.OutlineGroupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutlineGroup.app/OutlineGroup";
+			};
+			name = Debug;
+		};
+		AFDA94C824ACB3030010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = OutlineGroupTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.OutlineGroupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutlineGroup.app/OutlineGroup";
+			};
+			name = Release;
+		};
+		AFDA94CA24ACB3030010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = OutlineGroupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.OutlineGroupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OutlineGroup;
+			};
+			name = Debug;
+		};
+		AFDA94CB24ACB3030010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = OutlineGroupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.OutlineGroupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OutlineGroup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDA949924ACB3000010EDE6 /* Build configuration list for PBXProject "OutlineGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA94C124ACB3030010EDE6 /* Debug */,
+				AFDA94C224ACB3030010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA94C324ACB3030010EDE6 /* Build configuration list for PBXNativeTarget "OutlineGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA94C424ACB3030010EDE6 /* Debug */,
+				AFDA94C524ACB3030010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA94C624ACB3030010EDE6 /* Build configuration list for PBXNativeTarget "OutlineGroupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA94C724ACB3030010EDE6 /* Debug */,
+				AFDA94C824ACB3030010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA94C924ACB3030010EDE6 /* Build configuration list for PBXNativeTarget "OutlineGroupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA94CA24ACB3030010EDE6 /* Debug */,
+				AFDA94CB24ACB3030010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDA949624ACB3000010EDE6 /* Project object */;
+}
